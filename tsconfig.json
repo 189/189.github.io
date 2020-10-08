@@ -1,0 +1,32 @@
+{
+	// https://www.tslang.cn/docs/handbook/compiler-options.html
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"jsx": "react",
+		"target": "es5",
+		// 允许编译javascript文件
+		"allowJs": true,
+		"allowUnreachableCode": true,
+		"module": "commonjs",
+		"experimentalDecorators": true,
+		// 在表达式和声明上有隐含的 any类型时报错。
+		"noImplicitAny": false,
+		// 删除所有注释，除了以 /!*开头的版权信息。
+		"removeComments": true,
+		// 解析非相对模块名的基准目录
+		"baseUrl": "./",
+		"outDir": "./lib",
+		"strictNullChecks": false,
+		// 禁止有局部变量未使用
+		"noUnusedLocals": true,
+		// 禁止有参数未使用
+		"noUnusedParameters": true,
+		// 要包含的类型声明文件路径列表
+		"typeRoots": ["node_modules/@types", "./types/**.d.ts"],
+		"skipLibCheck": true,
+		// 生成相应的 .d.ts文件。
+		"declaration": true
+	},
+	"include": ["./**/*.ts", "./**/*.tsx", "./types/**.d.ts"],
+	"exclude": ["./node_modules/", "lib", "dist"]
+}
