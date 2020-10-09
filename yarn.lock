@@ -6861,10 +6861,10 @@ react-is@^16.8.1:
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
-react-qrcode-scan@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.npmjs.org/react-qrcode-scan/-/react-qrcode-scan-1.1.4.tgz#5adcbaee1e93d5e427d5df3725e3fc2b25d2ed08"
-  integrity sha512-6oxjrhyQcUOQhw8S+omPpju0MAkoKUN60hm71ywNyrW21UM7IfK5GqSMNKgnFVx3t4YwyCVBUMcijTbkkCvcUQ==
+react-qrcode-scan@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/react-qrcode-scan/-/react-qrcode-scan-1.1.6.tgz#14b2e3bbe0488dd237d3027bc6313d6678b7b6a0"
+  integrity sha512-FqByIOVQKRn7e/YyawkbscQZ2dVugnO3tKelTV3Fh7IU0kPlmKz5BXvpnRa7vjuDjV+i8OjTamADkf79Afm8dw==
   dependencies:
     "@babel/core" "^7.11.6"
     "@babel/preset-env" "^7.11.5"
